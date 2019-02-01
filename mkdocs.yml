@@ -11,7 +11,7 @@ site_url:         https://hpc-internal.carnegiescience.edu/
 #   - edit_url points to the sherlock private repo, so only authorized users can edit content
 repo_name:        'CSRC <i class="fa fa-heart-o"></i> Open Source'
 repo_url:         'https://github.com/ffayton'
-edit_uri:         'www.sherlock.stanford.edu/edit/docs/src/'
+edit_uri:         'ffayton.github.io/edit/docs/src/'
 
 # Copyright
 copyright:        "Copyright &copy; 2019 &mdash; <a href='mailto:memexsupport@carnegiescience.edu'>Carnegie Science Research Computing</a>"
@@ -57,16 +57,18 @@ extra:
   search:
     language: 'en'
     tokenizer: '[\s\_\-\.]+'
-  made_in: "<a href='https://www.google.com/maps/place/Stanford,+CA'>Stanford, California</a>"
+  made_in: "<a href='https://www.google.com/maps/place/Washington,+DC'>Washinton, DC</a>"
   social:
     - type: 'globe'
-      link: 'https://srcc.stanford.edu'
+      link: 'https://hpc.carnegiescience.edu'
     - type: 'github'
-      link: 'https://github.com/stanford-rc'
+      link: 'https://github.com/ffayton'
     - type: 'twitter'
-      link: 'https://twitter.com/StanfordCompute'
+      link: 'https://twitter.com/carnegiescience'
     - type: 'linkedin'
-      link: 'https://www.linkedin.com/school/1792/'
+      link: 'https://www.linkedin.com/company/carnegie-institution-for-science_62514'
+      type: 'slack'
+      link: 'https://carnegiescience.slack.com/'
   manifest: 'manifest.webmanifest'
 
 # Extensions
@@ -93,8 +95,8 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shortener: True
       provider: 'github'
-      user: 'stanford-rc'
-      repo: 'sherlock'
+      user: 'ffayton'
+      repo: 'ffayton.github.io'
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
