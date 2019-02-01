@@ -67,7 +67,7 @@ extra:
       link: 'https://twitter.com/carnegiescience'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/carnegie-institution-for-science_62514'
-      type: 'slack'
+    - type: 'slack'
       link: 'https://carnegiescience.slack.com/'
   manifest: 'manifest.webmanifest'
 
