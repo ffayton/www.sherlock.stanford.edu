@@ -59,8 +59,6 @@ extra:
     tokenizer: '[\s\_\-\.]+'
   made_in: "<a href='https://www.google.com/maps/place/Washington,+DC'>Washinton, DC</a>"
   social:
-    - type: 'globe'
-      link: 'https://hpc.carnegiescience.edu'
     - type: 'github'
       link: 'https://github.com/ffayton'
     - type: 'twitter'
