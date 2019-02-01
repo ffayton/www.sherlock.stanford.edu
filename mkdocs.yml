@@ -1,20 +1,20 @@
 # vim: set ts=2 sw=2 sts=2 expandtab:
 
 # Site information
-site_name:        Sherlock
-site_description: Sherlock Cluster documentation
-site_author:      Kilian Cavalotti
-site_url:         https://www.sherlock.stanford.edu/
+site_name:        Memex
+site_description: Memex Cluster documentation
+site_author:      Floyd Fayton
+site_url:         https://hpc-internal.carnegiescience.edu/
 
 # Repository
 #   - repo_url point to the public organization page, so anyone can get to it
 #   - edit_url points to the sherlock private repo, so only authorized users can edit content
-repo_name:        'SRCC <i class="fa fa-heart-o"></i> Open Source'
-repo_url:         'https://github.com/stanford-rc'
+repo_name:        'CSRC <i class="fa fa-heart-o"></i> Open Source'
+repo_url:         'https://github.com/ffayton'
 edit_uri:         'www.sherlock.stanford.edu/edit/docs/src/'
 
 # Copyright
-copyright:        "Copyright &copy; 2014 - 2018 &mdash; <a href='mailto:srcc-support@stanford.edu'>Stanford Research Computing Center</a>"
+copyright:        "Copyright &copy; 2019 &mdash; <a href='mailto:memexsupport@carnegiescience.edu'>Carnegie Science Research Computing</a>"
 
 # Google Analytics
 google_analytics: ['UA-68034405-2', auto]
@@ -37,13 +37,13 @@ theme:
   feature:
     tabs: true
   palette:
-    primary: stanford
-    accent:  stanford
+    primary: darkblue
+    accent:  lightgreen
   font:
     text: Roboto
     code: Roboto Mono
-  favicon:  'img/logo_small.png'
-  logo:     'img/logo_small.png'
+  favicon:  'img/CS_Logo_horiz_white.png'
+  logo:     'img/CS_Logo_horiz_white.png'
 
 extra_css:
   - ''

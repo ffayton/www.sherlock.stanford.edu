@@ -46,9 +46,10 @@
     <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
   <![endif]-->
 
+
   <!-- noticeable.io widget (changelog) -->
   <script async="" defer="" src="https://cdn.noticeable.io/v1/noticeable-widget.js"></script>
-
+    
   <!-- UserVoice widget -->
   <script async>
     // Include the UserVoice JavaScript SDK (only needed once on a page)
@@ -102,7 +103,13 @@
 </head>
 
 <body id="page-top" class="index">
-
+    
+  <!-- FreshService widget (ticket system) -->
+<script type="text/javascript" src="https://assets.freshservice.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+ FreshWidget.init("", {"queryString": "&widgetType=popup&searchArea=no", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Support", "buttonColor": "black", "buttonBg": "#5eb6cd", "alignment": "2", "offset": "235px", "formHeight": "500px", "url": "https://carnegiescience.freshservice.com", "label":"toot"} );
+</script>
+    
  <div id="su-wrap"> <!-- #su-wrap start -->
    <div id="su-content"> <!-- #su-content start -->
 
@@ -159,10 +166,12 @@
           <li>
             <span class="navbar-separator"></span>
           </li>
-          <li>
-            <a class="page-scroll" href="https://carnegiescience.freshservice.com/support/tickets/new">Support</a>
-<!--               data-uv-trigger>Support</a>--> 
+<!--
+          <li><div class="form-popup" id="CSForm"></div>
+            <a class="page-scroll">Support</a>
+               data-uv-trigger>Support</a> 
           </li>
+-->
           <li>
             <a class="page-scroll" href="//srcc.stanford.edu/about/computing-support-research">SRCF</a>
           </li>
@@ -231,7 +240,7 @@
           </span>
           <h4 class="service-heading">Discover</h4>
           <p class="text-muted">Carnegie Science is dedicated 
-           to all of its research scientists to aid in solving their most challenging and data-intensive calculations.</p> </div>
+            to all of its research scientists to aid in solving their most challenging and data-intensive calculations.</p> </div>
       </div>
     </div>
   </section>
@@ -436,11 +445,12 @@
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-image" id="account_request3" style="cursor:pointer">
-                <h4>Join 
-                  <br>Us
-                  <br>Today!
-                 </h4>
+              <div class="timeline-image" id="FreshService ticket" style="cursor:pointer">
+                     <h4>Join Us !!
+                     <br>Click 
+                     <br>Support 
+                     <br>-->
+                     </h4>
               </div>
             </li>
           </ul>

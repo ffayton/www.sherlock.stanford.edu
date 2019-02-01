@@ -1,4 +1,4 @@
-# Sherlock <small>documentation</small>
+# Memex <small>documentation</small>
 
 <!-- HTML interlude for the main page logo -->
 <style>
@@ -11,14 +11,17 @@
     margin-top: -50px;
 }
 </style>
+<!--
 <img id="logo_head" align="right" width="220px"
-     alt="Sherlock" src="/img/logo.png">
+     alt="Memex" src="/img/MemexWikiImage.jpg">
+-->
 <!-- resuming normal Markdown operations -->
 
 
 !!! warning
-    This guide is a work in progress and is not complete yet. We are actively
-    working on adding more content and information.
+    This guide is a work in progress and is not complete 
+    yet. We are actively working on adding more content 
+    and information.
 
 ## Welcome to Sherlock!
 
