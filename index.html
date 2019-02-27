@@ -191,10 +191,9 @@
       <div class="intro-text">
         <div class="intro-heading" style="color:ghostwhite">Memex</div>
         <img height="190" src="img/MemexWikiImage.jpg" alt="">
-          <div class="intro-content"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjGr_-Zz5jgAhWj1VkKHZoqD54QFjAAegQICxAB&url=https%3A%2F%2Fwww.theatlantic.com%2Fmagazine%2Farchive%2F1945%2F07%2Fas-we-may-think%2F303881%2F&usg=AOvVaw2xHnppW-TwNpnda-jjgNhU" style="color:antiquewhite">"As We May Think" </br>by Vannevar Bush</a></div>
+          <div class="intro-content"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjGr_-Zz5jgAhWj1VkKHZoqD54QFjAAegQICxAB&url=https%3A%2F%2Fwww.theatlantic.com%2Fmagazine%2Farchive%2F1945%2F07%2Fas-we-may-think%2F303881%2F&usg=AOvVaw2xHnppW-TwNpnda-jjgNhU" style="color:antiquewhite">"As We May Think"</a></div>
         <div class="intro-content">Memex is the name of Vannevar Bush's hypothetical proto-hypertext system 
-        described in his 1945 The Atlantic Monthly article, "As We May Think".  It is also the name of Carnegie Science's first supercomputer dedicated to supporting all of its research staff. With contributions across our institution, 
-        Memex is a shared computing cluster available to all of our researchers and their collaborators.</div>
+        described in his 1945 The Atlantic Monthly article, "As We May Think".  It is also the name of our first centralized supercomputer. With contributions across our institution, Memex is a shared computing cluster available to all of our researchers, and their collaborators.</div>
 
         <a href="#services" class="page-scroll btn btn-xl">Want to know more?</a>
         <a href="javascript:FreshWidget.show();" class="page-scroll btn btn-xl">Request an account</a>
@@ -211,7 +210,7 @@
           <h2 class="section-heading">Services</h2>
           <h3 class="section-subheading text-muted">A one-stop shop for all our scientific computing needs</h3>
         </div>
-      </div>
+      </div> 
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -239,7 +238,7 @@
             <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Discover</h4>
-          <p class="text-muted">Carnegie Science is dedicated 
+          <p class="text-muted">Carnegie Institution for Science is dedicated 
             to all of its research scientists to aid in solving their most challenging and data-intensive calculations.</p> </div>
       </div>
     </div>
@@ -258,70 +257,54 @@
         <div class="col-lg-12">
           <h3 id="why" class="airy">Why should I use Memex?</h3>
           <!-- or, more precisely, "What is the Sherlock for, already?" -->
-            <p class="text-muted">Memex is a unified resource for your work 
-            and has many advantages over individual or department-only solutions: 
-            it is hosted in a 24/7 datacenter, which includes secure access, 
-            backup power, and access to Stanford's remote hands service.
-            All of these features provide the basis for any scientific computing 
-            solution.</p>
-            <p class="text-muted">Memex users benefit from performance levels that
+            <p class="text-muted">Memex is a unified Carnegie Institution for Science (CIS) resource 
+            for your work and has many advantages over individual or department-only solutions: 
+            it is hosted in a 24/7 datacenter (with secure access), 
+            provides backup power, and has access to Stanford's remote hands service when 
+            necessary.  All of these features provide the basis 
+            for any scientific computing solution.</p>
+            <p class="text-muted">Memex users are benefiting from performance levels that
             only large scale HPC systems can offer: high-performance I/O infrastructure,
-            a petabyte of total storage, a variety of hardware configurations, GPU
-            accelerators, centralized system administration and management provided by the
-            <a href="//hpc.carnegiescience.edu">Carnegie Research
-            Computing Center</a> (CRCC).</p>     
-            <p class="text-muted">Memex allows researchers and collaborators 
-            to avoid the cost of operating their own cluster while getting 
-            access to a larger, professionally managed computing resource.</p>
+            a petabyte of raw storage, a variety of hardware configurations, GPU
+            accelerators, a ticketing system for administrators, and planning provided by
+            Carnegie's SciComp Committee.</p>     
+            <p class="text-muted">For researchers and collaborators, Memex can 
+            avoid the cost of operating their own cluster while getting 
+            access to a larger computing resource.</p>
 
           <h3 id="cost" class="airy">How much does it cost?</h3>
-            <p class="text-muted">Memex is free to use for anyone doing sponsored 
-            research at Carnegie.  Any faculty member can request access for 
-            research purposes, and get an account with a base storage allocation 
-            and compute time on the global and department pool of resources.
+            <p class="text-muted">Memex is <b>free</b> to use for anyone performing  
+            research at Carnegie.  Any faculty member can request access and get a base storage allocation. 
+            Our job scheduler submits to a shared or department queue based on group access.
 
-            In case those free resources are not sufficient, Carnegie Research Computing
-            provides faculty with the <a href="/docs/overview/concepts#the-condominium-model">
-            opportunity to purchase</a> additional resources, whether it is on-prem 
-            hardware or cloud computing, for all of their lab members.
+            In case those free resources are not sufficient, we provide researchers with the 
+            <a href="/docs/overview/concepts#the-condominium-model">opportunity to purchase</a> 
+            additional resources, whether it is on-prem at SRCF or in the cloud.
             Using a traditional compute cluster condominium model, participating
-            faculty and their teams get priority access to the resources they purchase.
-            When they're idle, those resources are available to use by other owners on the
-            cluster, giving them access to virtually unlimited resources.</p>
+            researchers and their labs get priority access to the resource(s) they purchase.
+            When they're idle, those resources are generally available to others
+            in a shared queue/partition.</p>
 
           <h3 id="size" class="airy">How big is it?</h3>
-            <p class="text-muted">Quite big! It's actually difficult to give a
-            precise answer, as Sherlock is constantly evolving with new
-            hardware additions.</p>
-            <p class="text-muted">As of mid-2017, there were about 180 shared
-            compute nodes available to all researchers, and more than 900
-            additional nodes available to Sherlock <i>owners</i>, faculty who
-            have augmented the cluster with their own purchases.</p>
-            <p class="text-muted">For more details about Sherlock size and
-            technical specifications, please refer to the <a
-            href="/docs/overview/specs">tech specs</a> section of the <a
-            href="/docs">documentation</a>. But with a computing power over 1
-            Petaflops, Sherlock would have its place in the Top500 list of the
-            500 most powerful computer systems in the world.</p>
+            <p class="text-muted">Over the last couple of years, we have worked with departments
+            and individuals to add resources based on their need. As of early 2019, Memex 
+            is comprised of 126 compute nodes, which are available to all researchers. For 
+            technical details about Memex, please refer to the 
+            <a href="/docs/overview/specs">tech specs</a> section of the <a
+            href="/docs">documentation</a>. </p>
 
           <h3 id="start" class="airy">Ok, how do I start?</h3>
-            <p class="text-muted">You can <a id="account_request2"
-            href="">request an account</a> right now, take a look at the <a
+            <p class="text-muted">You can <a href="javascript:FreshWidget.show();">
+            request an account</a> right now, take a look at the <a
             href="docs/">documentation</a>, and drop us an <a
-            href="mailto:srcc-support@stanford.edu">email</a> if
+            href="mailto:memexsupport@carnegiescience.edu">email</a> if
             you have any question.</p> 
             
 
           <h3 id="own" class="airy">I want my own nodes!</h3>
-            <p class="text-muted">If you're interested in becoming an owner on
-            Sherlock, and benefit from all the advantages associated, please
-            take a look at the  <a
-            href="https://srcc.stanford.edu/private/sherlock-qtr-order">catalog
-            of configurations</a> and contact us at <a
-            href="mailto:srcc-support@stanford.edu">srcc-support@stanford.edu
-            </a> to let us know you're interested and we'll get back to
-            you.</a>
-
+            <p class="text-muted">If you're interested in becoming an owner and setting up your own partition on Memex,
+            contact us at <a href="mailto:memexsupport@carnegiescience.edu">memexsupport@carnegiescience.edu</a> 
+            to let us know you're interested and we'll get back to you.</a>
             </div>
 
       </div>
@@ -333,7 +316,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Timeline</h2>
+          <h2 id="timeline" class="section-heading">Timeline</h2>
           <h3 class="section-subheading text-muted">In our brief history ...</h3>
         </div>
       </div>
@@ -350,7 +333,7 @@
                   <h4 class="subheading">Original Memex Purchase</h4>
                 </div>
                 <div class="timeline-body">
-                    <p class="text-muted">Our SciComp Committee forms and decides to purchase Memex on September 28th, 2015.  Prior to this, researchers would create their own clusters and/or apply for external resources such as national supercomputing centers. Memex was initially comprised of 100 24-core compute nodes, 2 24-core compute nodes each with one GPU, a 700TB parallel file system, and high-speed network for fast parallel computing. Memex is hosted by <a href="//srcc.stanford.edu/about/computing-support-research">Stanford's SRCF</a>, a modern state-of-the-art datacenter.</p> </div>
+                    <p class="text-muted">Our SciComp Committee moves to purchase Memex on September 28th, 2015.  Prior to this, researchers would create their own clusters and/or apply for external resources such as national supercomputing centers. Memex was initially comprised of 100 24-core compute nodes, 2 24-core compute nodes each with one GPU, a 700TB parallel file system, and high-speed network for fast parallel computing. Memex is hosted by <a href="//srcc.stanford.edu/about/computing-support-research">Stanford's SRCF</a>, a modern state-of-the-art datacenter.</p> </div>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -363,7 +346,7 @@
                   <h4 class="subheading">Home Storage Added</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Home directories are moved from Lustre to a new 300TB storage server for researchers who don't require a parallel file system.</p> </div>
+                  <p class="text-muted">Memex user home directories are moved from Lustre to a new 300TB storage server, providing a workspace for researchers who don't require a parallel file system.  This also improves the performance of our parallel filesystem.</p> </div>
               </div>
             </li>
             <li>
@@ -376,7 +359,7 @@
                   <h4 class="subheading">New Compute Nodes</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Eight new high-density compute nodes are added, making Memex a heterogeneous cluster.  The newer Intel Xeon E5 2680 v4 provides 4 more cores per node along with 128GB of RAM per node.</p> </div>
+                  <p class="text-muted">Eight new high-density compute nodes are added, making Memex a multi-vendor cluster.  The newer Intel Xeon E5 2680 v4 provides 4 more cores per node along with 128GB of memory per node.</p> </div>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -402,27 +385,20 @@
                   <h4 class="subheading">Memex 2.0</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">After two years, Memex is upgraded to a new cluster OS, OpenHPC/CentOS 7.5, to ensure the latest security and OS patches are installed and upgradeable moving forward.</p> </div>
+                  <p class="text-muted">After two years, Memex is upgraded to a new cluster provisioner and operating system, OpenHPC/CentOS 7.5, to ensure the latest security and OS patches are installed.</p> </div>
               </div>
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
                 <img class="img-circle img-responsive" src="img/about/2018newnodes.jpg" alt="">
               </div>
-<!--
-              <div class="timeline-image" style="background: white;">
-                <img class="img-circle img-responsive" src="img/logo.png" alt=""
-                     style="margin-top:5%; ">
-
-              </div>
--->
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>February 2019</h4>
                   <h4 class="subheading">More "high-density/high-memory" Nodes</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Eight more Intel Skylake compute nodes with 256GB of RAM is installed.  
+                  <p class="text-muted">Eight more Intel Skylake compute nodes with 256GB of memory installed.  
                   </p> </div>
               </div>
             </li>
